@@ -33,7 +33,7 @@
 
 ## 5. Interface
 - [x] Definir a identidade visual (docs/design.md)
-- [ ] Desenhar as telas no Claude Design
+- [x] Desenhar as telas no Claude Design
 - [ ] Tela Simulação
 - [ ] Animação dos pacotes entre colunas
 - [ ] Tela Listas

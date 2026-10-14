@@ -76,3 +76,4 @@ Termos em **negrito** seguem o glossário em `CONTEXT.md`. Decisões difíceis d
 Não decidir sozinho.
 
 - [ ] **Telas finais**: layout detalhado das telas Simulação e Listas, a sair do Claude Design
+  - Proposta desenhada (aguardando aprovação): https://claude.ai/artifact/HQaXQgsr8rZhhcQZEVuCK2 — Simulação com 4 threads e sync desligado, Simulação com 8 threads e sync ligado, Listas e uma prancha de estados
