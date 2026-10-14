@@ -32,7 +32,8 @@
 - [ ] Salvar e comparar execuções
 
 ## 5. Interface
-- [ ] Redefinir o design de interface (ver docs/decisoes.md)
+- [x] Definir a identidade visual (docs/design.md)
+- [ ] Desenhar as telas no Claude Design
 - [ ] Tela Simulação
 - [ ] Animação dos pacotes entre colunas
 - [ ] Tela Listas

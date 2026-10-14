@@ -4,7 +4,7 @@ Simulador gráfico de roteador com escalonamento de pacotes (SJF, RR, Prioridade
 
 ## Antes de qualquer tarefa
 - Leia CONTEXT.md, docs/descricao.md, docs/decisoes.md e docs/tasks.md
-- O design de interface está em aberto e será refeito. Não invente estilo; pergunte antes de qualquer UI além do mínimo funcional
+- Para qualquer UI, siga docs/design.md à risca. Não invente estilo
 
 ## Regras
 - Trabalhe uma task de docs/tasks.md por vez e marque como feita ao terminar

@@ -67,8 +67,12 @@ Termos em **negrito** seguem o glossário em `CONTEXT.md`. Decisões difíceis d
 - Formato de entrega e prazo ficam fora do repo; o repo cuida só do código e da simulação
 - O design de interface anterior foi descartado; não havia mockup aprovado
 
+### Design
+- **Identidade visual** em `docs/design.md`: Excalidraw no visual, Factorio no comportamento, projetor primeiro, canvas como protagonista
+- As telas finais serão desenhadas no Claude Design a partir de `docs/design.md`
+
 ## Em aberto
 
 Não decidir sozinho.
 
-- [ ] **Design de interface**: será refeito do zero (visual, fontes, telas). Até lá, nada de UI estilizada
+- [ ] **Telas finais**: layout detalhado das telas Simulação e Listas, a sair do Claude Design
