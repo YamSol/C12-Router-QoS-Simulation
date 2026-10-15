@@ -40,5 +40,5 @@
 - [x] Log
 
 ## 6. Entrega
-- [ ] README com como rodar e conclusões
+- [x] README com como rodar e conclusões (conclusões medidas só na contenção de porta; faltam as dos outros presets)
 - [ ] Execuções de comparação com os presets
