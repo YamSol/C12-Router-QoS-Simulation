@@ -22,7 +22,7 @@ Termos em **negrito** seguem o glossário em `CONTEXT.md`. Decisões difíceis d
 - **Ordem dentro de um tick**:
   1. pacotes com `chegada == tick` entram na fila de entrada
   2. o escalonador entrega pacotes às threads ociosas, em ordem de id de thread
-  3. cada thread ocupada transmite 1 unidade, espera o lock ou colide
+  3. as threads executam o tick em duas fases, cada uma com barreira: (a) quem terminou a fatia no tick anterior libera o lock; (b) cada thread ocupada transmite 1 unidade, espera o lock ou colide. Sem a fase (a), uma thread que libera o lock no último tick da fatia deixaria outra escrever na mesma porta no mesmo tick
   4. a engine só avança o tick quando todas as threads terminaram o tick (barreira)
 
   Um pacote que chega no tick t pode começar a transmitir no próprio tick t

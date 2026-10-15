@@ -18,6 +18,7 @@ Simulador gráfico de roteador com escalonamento de pacotes (SJF, RR, Prioridade
 ## Rodar
 - npm install
 - npm run dev  (headers COOP/COEP já configurados no Vite)
+- npm test     (Vitest; a engine roda com ExecutorSequencial, sem workers)
 
 ## Agent skills
 
